@@ -1,0 +1,18 @@
+{
+  "name": "techwallGQL",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -e js,mjs,json,graphql src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "graphql-yoga": "^1.18.3",
+    "nodemon": "^2.0.7"
+  }
+}
